@@ -53,7 +53,7 @@ The simulation on RViz is working and I can control the arm using the joint_stat
 ### randomized position
 ![VirtualBoxVM_XS7juWuZsH](https://user-images.githubusercontent.com/25144777/122290101-1687a180-cefc-11eb-8302-df8a38947e30.png)
 
-## Rviz & gazebo synchronization
+## RViz & gazebo synchronization
 
 
 
