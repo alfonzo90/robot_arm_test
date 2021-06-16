@@ -45,7 +45,7 @@ Now I have a working simulation, and by launching the simulator
 $ roslaunch robot_arm_pkg check_motors.launch
 ```
 
-The simulation on RViz is working and I can control the arm using the joint_state_publisher.
+The simulation on RViz is working and I can control the arm using the joint_state_publisher gui.
 
 ### default position
 ![VirtualBoxVM_R54W0t2WmC](https://user-images.githubusercontent.com/25144777/122289734-b7299180-cefb-11eb-8529-0bb319e0b993.png)
