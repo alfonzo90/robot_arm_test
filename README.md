@@ -55,6 +55,35 @@ The simulation on RViz is working and I can control the arm using the joint_stat
 
 ## RViz & gazebo synchronization
 
+Normally when running RViz and gazebo side by side, changes made on RViz through the joint_state_publisher gui don't affect the simulation running on gazebo, so I need to synchronize them. A python script is provided in the robot_arm_pkg by smart-methods.
 
+First ill launch the robot arm simulation on RViz and gazebo.
+
+```
+$ roslaunch robot_arm_pkg check_motors.launch
+$ roslaunch robot_arm_pkg check_motors_gazebo.launch
+```
+
+Before running the synchronization script I need to give it execution permissions.
+
+```
+$ cd catkin/src/arduino_robot_arm/robot_arm_pkg/scripts
+$ sudo chmod +x joint_states_to_gazebo.py
+
+```
+
+And finally run the synchronization script.
+
+```
+$ rosrun robot_arm_pkg joint_states_to_gazebo.py
+```
+
+### default position
+![VirtualBoxVM_dB1r2w11jl](https://user-images.githubusercontent.com/25144777/122296784-7897d500-cf03-11eb-91da-6d52f054724b.png)
+
+### randomized position
+![VirtualBoxVM_Dfz4pIUEzN](https://user-images.githubusercontent.com/25144777/122296806-82213d00-cf03-11eb-9acd-6cdedc89f472.png)
+
+they only look different because the angle the arm is viewed from is different.
 
 
