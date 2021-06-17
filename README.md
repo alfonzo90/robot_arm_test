@@ -84,7 +84,7 @@ $ rosrun robot_arm_pkg joint_states_to_gazebo.py
 ### randomized position
 ![VirtualBoxVM_Dfz4pIUEzN](https://user-images.githubusercontent.com/25144777/122296806-82213d00-cf03-11eb-9acd-6cdedc89f472.png)
 
-they only look different because the angle the arm is viewed from is different
+they look different because the angle the arm is viewed from is different, otherwise they are identical
 
 ## MoveIt!
 
