@@ -101,4 +101,15 @@ $ roslaunch moveit_pkg demo.launch
 $ roslaunch moveit_pkg demo_gazebo.launch
 ```
 
+This simulation figures out the optimal combination of movement to reach the goal state while avoiding obstacles.The orange arm shows the goal position and the red one is the starting position
+
+### before execution
+![VirtualBoxVM_2pl93wo0CK](https://user-images.githubusercontent.com/25144777/122471557-1523ab00-cfc8-11eb-8d64-03fbfdb6df60.png)
+
+### after execution
+![VirtualBoxVM_o2lg4n0IAE](https://user-images.githubusercontent.com/25144777/122471570-181e9b80-cfc8-11eb-8469-2a525960e3e3.png)
+
+In the second screenshot the orange and red arms overlap showing that the arm succeeded at reaching the destination
+
+
 
