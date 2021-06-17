@@ -12,7 +12,7 @@ $ roscore
 ```
 
 ## building the catkin workspace
-A catkin workspace is needed, it comes with the full installation of ROS so all I need to do build the workspace. The documentation for doing that is http://wiki.ros.org/catkin/Tutorials/create_a_workspace
+A catkin workspace is needed, it comes with the full installation of ROS so all I need to do is build the workspace. The documentation for doing that is http://wiki.ros.org/catkin/Tutorials/create_a_workspace
 
 Next, I need to clone the repository https://github.com/smart-methods/arduino_robot_arm inside the src folder in the catkin workspace
 
